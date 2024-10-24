@@ -1,0 +1,180 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(287.56deg, rgb(78, 198, 214) 0%, rgb(56, 169, 54) 100%);
+    background-size: cover;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#logo {
+    font-size: 3em;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#destaque-lg {
+    color: rgb(56, 169, 54);
+}
+
+.menu {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.975);
+    position:sticky ;
+    top: 10px;
+    padding: 2px;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    border-radius: 50%;
+    transition: 0.4s;
+    margin: 10px;
+    z-index: 1000;
+    
+    
+    
+}
+
+#ham {
+    color:rgb(56, 169, 54) ;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu:hover {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.615);
+    padding: 10px;
+    margin: 0px;
+    top: 0px;
+}
+
+
+.menu:hover > a {
+    display: block;
+}
+
+
+.menu:hover > #ham {
+    display: none;
+}
+
+.itemf {
+    grid-column: 3;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px;
+    display: none;
+    
+    
+
+    
+    
+}
+
+.menu > a:hover {
+    font-size: 1.1em;
+    color: rgb(56, 169, 54);
+    background-color: black;
+    border-radius: 10px;
+}
+
+.inicial {
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 85%;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    text-indent: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 2px rgb(0, 0, 0);
+}
+
+section {
+    
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/*---------------------------------carroseel-------------------------------*/
+#carrossel{
+    width: 95%;
+    margin: auto;   
+    z-index: 1;
+    position: relative;
+    
+    }
+    
+    #carousel-container {
+        border: 1px solid antiquewhite;
+        border-radius: 10px;
+        width: 100%;
+        background-color: black;
+        
+      }
+      
+      .carousel-item img {
+        border-radius: 10px;
+        
+      }
+      
+      button {
+        background-color: rgba(16, 123, 37, 0.5);
+        color: white;
+        font-weight: bolder;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      
+      button:hover {
+        background-color: rgb(16, 123, 37);
+      }
+    
+      #carrossel img {
+        width: 100%;
+        height:55%;
+      }
+    
+      #carrossel p {
+        color: white;
+        font-size: 1.2em;
+        padding: 8px;
+        text-indent: 2em;
+        text-align: justify;
+        border-radius: 0px 0px 10px 10px;
+        height: 40%;
+      }
+
+      
+    
+    
+    /*---------------------------------carroseel fim----------------------------*/
