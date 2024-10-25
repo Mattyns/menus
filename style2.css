@@ -139,9 +139,12 @@ section {
         background-color: black;
         
       }
+
+    
       
       .carousel-item img {
-        border-radius: 10px;
+        border-radius: 10px 10px 0px 0px;
+        width: 50%;
         
       }
       
@@ -152,16 +155,20 @@ section {
         border: none;
         padding: 10px;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 10px;
       }
       
       button:hover {
         background-color: rgb(16, 123, 37);
       }
+
+      button > i {
+        color: black;
+      }
     
       #carrossel img {
         width: 100%;
-        height:55%;
+        height:60%;
       }
     
       #carrossel p {
@@ -178,3 +185,81 @@ section {
     
     
     /*---------------------------------carroseel fim----------------------------*/
+
+    .outrasnoticias {
+        width: 90%;
+        background-color: white;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    #noti1 {
+        cursor: pointer;
+
+    }
+
+    #noti1:hover {
+        background-color:rgba(16, 123, 37, 0.5) ;
+    }
+    
+    .outrasnoticias > h1 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(39, 121, 131);
+    }
+
+    .outrasnoticias  img {
+        width: 48%;
+        margin: 20px 10px;
+        border: 3px solid black;
+    }
+
+    .outrasnoticias p {
+        position: relative;
+        text-align: left;
+        float: right;
+        width: 38%;
+        padding: 25px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .redes {
+        width: 100%;
+        margin: auto;
+        background-color: rgb(56, 169, 54);
+        margin-bottom: 20px;
+    }
+
+    .redes > h1 {
+        color: antiquewhite;
+        padding: 10px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+    .redes  img {
+        width: 150%;
+        border-radius: 10px;
+        border: 1px solid black;
+        
+        
+    }
+
+    .redes  img:hover {
+        border-radius: 50%;
+        width: 180%;
+        box-shadow: -2px 2px 5px 2px black;
+        transition: 0.4s;
+    }
+
+    #orgredes {
+        gap: 30px;
+        display: grid;
+        width: 50%;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        justify-self: right;
+        padding: 10px 30px;
+        
+    }
