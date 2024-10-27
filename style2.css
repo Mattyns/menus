@@ -197,6 +197,7 @@ section {
 
     #noti1 {
         cursor: pointer;
+        
 
     }
 
@@ -212,17 +213,18 @@ section {
 
     .outrasnoticias  img {
         width: 48%;
-        margin: 20px 10px;
+        margin: 12% 2%;
         border: 3px solid black;
     }
 
     .outrasnoticias p {
-        position: relative;
-        text-align: left;
         float: right;
+        text-align: left;
         width: 38%;
-        padding: 25px 10px;
+        padding:0 10px;
+        margin: 14% 0;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 4vw;
     }
 
     .redes {
